@@ -15,6 +15,7 @@ namespace _013
             bool subsidyAllowed = (unemployed && retired || !working && !retired && unemployed);
             Console.WriteLine(subsidyAllowed);
             Console.ReadLine();
+
         }
     }
 }
