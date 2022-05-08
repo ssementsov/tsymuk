@@ -19,7 +19,7 @@ namespace _010
             int m = (t * s);  // 4 * NaN = NaN
         }
 
-            public const double PositiveInfinity = Infinity
+        public const double PositiveInfinity = Infinity;
             Console.ReadLine();
         }
     }

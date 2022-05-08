@@ -15,8 +15,8 @@ namespace _002
             int firstNumber = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Please Enter Second Number");
             int secondNumber = Convert.ToInt32(Console.ReadLine());
-            int Result = (secondNumber - firstNumber);
-            Console.WriteLine(Result);
+            int missingNumber = (secondNumber - firstNumber);
+            Console.WriteLine($"{secondNumber} = {firstNumber} + {missingNumber}");
             Console.ReadKey();
 
         }
